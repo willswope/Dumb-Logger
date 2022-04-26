@@ -24,5 +24,6 @@ hello, line 2
 hello, line 3
 ```
 To use the service (remotely):
- - Reverse proxy this software and secure with TLS + basic auth.
+ - Reverse proxy this software and secure with TLS + basic auth. 
+   - Ensure that files from your `www/cgi-bin` directory are not served as static files in your reverse proxy software's configuration.
  - *Do not use this software in sensitive contexts.*
