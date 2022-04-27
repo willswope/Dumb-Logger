@@ -6,6 +6,7 @@ Works on any linux w/ bash and busybox.
 To run the service:
  - `cd ~/Desktop`
  - `git clone https://github.com/willswope/Dumb-Logger.git`
+ - `cd Dumb-Logger`
  - `chmod +x run.sh`
  - `./run.sh`
 
