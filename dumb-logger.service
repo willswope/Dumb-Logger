@@ -1,0 +1,8 @@
+[Unit]
+Description=Simple logging service.
+
+[Service]
+ExecStart=/usr/bin/Dumb-Logger/run.sh
+
+[Install]
+WantedBy=multi-user.target
