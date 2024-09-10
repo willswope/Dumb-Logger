@@ -1,7 +1,7 @@
 # Dumb-Logger
 An ultra-minimalist HTTP-based logging service.
 
-Works on any linux w/ bash and busybox.
+Works on any nix w/ bash and busybox.
 
 To run the service:
  - `cd ~/Desktop`
